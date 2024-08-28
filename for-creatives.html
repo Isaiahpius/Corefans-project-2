@@ -9,25 +9,26 @@
 <body>
     <header>
         <div class="bg-[#f5f5f5] flex gap-8 items-center py-5 pl-8 pb-32">
-            <h1><img src="images/Frame.png" alt=""></h1>
-            <nav class="text-[#667085] text-base font-medium flex gap-5">
-                <a href="/">Home</a>
-                <a class="bg-gradient-to-r from-[#f18b1b] to-[#e52053] inline-block text-transparent bg-clip-text" href="/for-creatives.html">For creatives</a>
+            <h1 class="grow md:grow-0"><img src="images/Frame.png" alt=""></h1>
+            <nav class="text-[#667085] text-base font-medium gap-5 hidden md:flex">
+                <a class="bg-gradient-to-r from-[#f18b1b] to-[#e52053] inline-block text-transparent bg-clip-text" href="/">Home</a>
+                <a href="/for-creatives.html">For creatives</a>
                 <a href="/for-talent-managers.html">For talent managers</a>
                 <a href="/become-talent-managers.html">Become talent managers</a>
                 <a href="/about-us.html">About us</a>
             </nav>
+            <div><img class="pr-8 md:hidden" src="images/bytesize_menu.png" alt=""></div>
         </div>
     </header>
 
     <section class="bg-[#f5f5f5]">
         <div class="max-w-5xl w-full mx-auto pb-20">
-            <div class="max-w-[768px] w-full mx-auto flex flex-col justify-center pb-20">
+            <div class="max-w-[343px] md:max-w-[768px] w-full mx-auto flex flex-col justify-center pb-20">
                 <p class="text-base text-center pb-4 font-semibold bg-gradient-to-r from-[#f18b1b] to-[#e52053] inline-block text-transparent bg-clip-text">For creatives</p>
-                <h1 class="text-[#101828] text-5xl pb-8 font-semibold text-center">Get The Resources You Need To Keep creating</h1>
-                <p class="text-[#667085] text-center text-xl font-normal">Creating can be very expensive. Let your core fans help you fuel your hustle.</p>
+                <h1 class="text-3xl md:text-5xl text-[#101828] pb-8 font-semibold text-center">Get The Resources You Need To Keep creating</h1>
+                <p class="text-base md:text-xl text-[#667085] text-center font-normal">Creating can be very expensive. Let your core fans help you fuel your hustle.</p>
             </div>
-            <div>
+            <div class="max-w-[343px] md:max-w-5xl w-full mx-auto">
                 <img src="images/unsplash_fans.png" alt="">
             </div>
         </div>
@@ -39,9 +40,9 @@
                 <h1 class="text-[#101828] text-4xl font-semibold pb-4">Why core fans?</h1>
                 <p class="text-xl text-[#667085] font-normal">Learn all the exciting features and why you should use corefans as a creative</p>
             </div>
-            <div class="flex">
-                <div class="w-[720px] pt-8">
-                    <div class="max-w-[570px] w-full mx-auto pt-5">
+            <div class="flex-col-reverse md:flex-row flex">
+                <div class="w-[343px] md:w-[720px] pt-8">
+                    <div class="max-w-[315px] md:max-w-[570px] w-full mx-auto pt-5">
                         <div class="flex gap-3">
                             <div>
                                 <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -56,12 +57,12 @@
                                 </svg>
                             </div>
                             <div>
-                                <h1 class="text-[#101828] text-3xl font-semibold pb-3">Unique Landing Page</h1>
-                                <p class="text-[#667085] text-lg font-normal w-[486px]">Get a unique link to a personal landing page where fans can find links to your music, send cash tips, buy merch, and check out your event schedule</p>
+                                <h1 class="text-[21px] md:text-3xl text-[#101828] font-semibold pb-3">Unique Landing Page</h1>
+                                <p class="text-base w-[315px] md:w-[486px] text-lg text-[#667085] font-normal">Get a unique link to a personal landing page where fans can find links to your music, send cash tips, buy merch, and check out your event schedule</p>
                             </div>
                         </div>
                     </div>
-                    <div class="max-w-[570px] w-full mx-auto pt-5">
+                    <div class="max-w-[315px] md:max-w-[570px] w-full mx-auto pt-5">
                         <div class="flex gap-3">
                             <div>
                                 <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -76,12 +77,12 @@
                                 </svg>
                             </div>
                             <div>
-                                <h1 class="text-[#101828] text-3xl font-semibold pb-3">Dedicated Talent Manager</h1>
-                                <p class="text-[#667085] text-lg font-normal w-[486px]">When you join Corefans, you get a dedicated Talent manager who actively works to support your growth.</p>
+                                <h1 class="text-[21px] md:text-3xl text-[#101828] font-semibold pb-3">Dedicated Talent Manager</h1>
+                                <p class="w-[315px] text-base md:w-[486px] text-lg text-[#667085] font-normal">When you join Corefans, you get a dedicated Talent manager who actively works to support your growth.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="max-w-[570px] w-full mx-auto pt-5">
+                    <div class="max-w-[315px] md:max-w-[570px] w-full mx-auto pt-5">
                         <div class="flex gap-3">
                             <div>
                                 <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -96,13 +97,13 @@
                                 </svg>
                             </div>
                             <div>
-                                <h1 class="text-[#101828] text-3xl font-semibold pb-3">Fanbase Management</h1>
-                                <p class="text-[#667085] text-lg font-normal w-[486px]">With a fan-base CRM tool that  just works, you get a database of most of your loyal fans.</p>
+                                <h1 class="text-[21px] md:text-3xl text-[#101828] font-semibold pb-3">Fanbase Management</h1>
+                                <p class="w-[315px] text-base md:w-[486px] text-lg text-[#667085] font-normal">With a fan-base CRM tool that  just works, you get a database of most of your loyal fans.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div>
+                <div class="px-5 md:px-0">
                     <img src="images/unsplash_artist.png" alt="">
                 </div>
             </div>
@@ -110,12 +111,12 @@
     </section>
 
     <section>
-        <div class="flex pb-20">
-            <div>
+        <div class="flex-col md:flex-row flex pb-20">
+            <div class="px-5 md:px-0">
                 <img src="images/unsplash_laptop.png" alt="">
             </div>
-            <div class="w-[720px] pt-8">
-                <div class="max-w-[570px] w-full mx-auto pt-5">
+            <div class="w-[343px] md:w-[720px] pt-8">
+                <div class="max-w-[315px] md:max-w-[570px] w-full mx-auto pt-5">
                     <div class="flex gap-3">
                         <div>
                             <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -130,12 +131,12 @@
                             </svg>
                         </div>
                         <div>
-                            <h1 class="text-[#101828] text-3xl font-semibold pb-3">Instant Payment</h1>
-                            <p class="text-[#667085] text-lg font-normal w-[486px]">Get instant payment into your account in your local currency. No minimum thresholds, No delays.</p>
+                            <h1 class="text-[21px] md:text-3xl text-[#101828] font-semibold pb-3">Instant Payment</h1>
+                            <p class="text-base w-[315px] md:w-[486px] text-lg text-[#667085] font-normal">Get instant payment into your account in your local currency. No minimum thresholds, No delays.</p>
                         </div>
                     </div>
                 </div>
-                <div class="max-w-[570px] w-full mx-auto pt-5">
+                <div class="max-w-[315px] md:max-w-[570px] w-full mx-auto pt-5">
                     <div class="flex gap-3">
                         <div>
                             <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -150,12 +151,12 @@
                             </svg>
                         </div>
                         <div>
-                            <h1 class="text-[#101828] text-3xl font-semibold pb-3">Data and Analytics</h1>
-                            <p class="text-[#667085] text-lg font-normal w-[486px]">Get comprehensive insight into your core fans, monitor your sales and keep track of your revenue.</p>
+                            <h1 class="text-[21px] md:text-3xl text-[#101828] font-semibold pb-3">Data and Analytics</h1>
+                            <p class="text-base w-[315px] md:w-[486px] text-lg text-[#667085] font-normal">Get comprehensive insight into your core fans, monitor your sales and keep track of your revenue.</p>
                         </div>
                     </div>
                 </div>
-                <div class="max-w-[570px] w-full mx-auto pt-5">
+                <div class="max-w-[315px] md:max-w-[570px] w-full mx-auto pt-5">
                     <div class="flex gap-3">
                         <div>
                             <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -170,8 +171,8 @@
                             </svg>
                         </div>
                         <div>
-                            <h1 class="text-[#101828] text-3xl font-semibold pb-3">Broadcast Messages</h1>
-                            <p class="text-[#667085] text-lg font-normal w-[486px]">Send messages to your fans wherever they are at no extra charges.</p>
+                            <h1 class="text-[21px] md:text-3xl text-[#101828] font-semibold pb-3">Broadcast Messages</h1>
+                            <p class="text-base w-[315px] md:w-[486px] text-lg text-[#667085] font-normal">Send messages to your fans wherever they are at no extra charges.</p>
                         </div>
                     </div>
                 </div>
@@ -181,9 +182,9 @@
 
     <section>
         <div class="bg-[#1d2939] py-20">
-            <h1 class=" text-white text-center text-4xl font-semibold pb-4">Frequently asked questions</h1>
-            <p class="text-[#eaecf0] text-center text-xl font-normal pb-20">Everything you need to know about the corefans as a creative</p>
-            <div class="max-w-[768px] w-full mx-auto bg-[#344054] rounded-xl p-5 mb-5">
+            <h1 class="max-w-[343px] mx-auto w-full text-3xl md:max-w-5xl text-4xl text-white text-center font-semibold pb-4">Frequently asked questions</h1>
+            <p class="max-w-[343px] mx-auto w-full text-base md:max-w-5xl text-xl text-[#eaecf0] text-center font-normal pb-20">Everything you need to know about the corefans as a creative</p>
+            <div class="max-w-[343px] md:max-w-[768px] w-full mx-auto bg-[#344054] rounded-xl p-5 mb-5">
                 <div class="flex gap-5">
                     <div>
                         <svg width="24" height="26" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -192,24 +193,24 @@
                     </div>
                     <div class="text-[#eaecf0]">
                         <h1 class="text-lg font-medium pb-4">How do I join corefans?</h1>
-                        <p class="text-base font-normal w-[656px]">We currently run an invite-only model, which means you need to get recruited by one of our Talent managers If you would like to be on the waitlist to join Corefans, Pleaseprovide your email below</p>
+                        <p class="pr-5 w-[279px] md:w-[656px] pr-0 text-base font-normal">We currently run an invite-only model, which means you need to get recruited by one of our Talent managers If you would like to be on the waitlist to join Corefans, Pleaseprovide your email below</p>
                     </div>
                 </div>
-                <form class="flex items-center gap-2 py-7 px-3 pl-10" action="">
-                    <input class="border-2 rounded-md pl-2 py-2 w-[360px]" type="text" placeholder="Enter your email">
-                    <button class="bg-gradient-to-r from-[#f18b1b] to-[#e52053] rounded-md text-white text-center p-2">join</button>
+                <form class="pr-10 flex-col md:flex-row flex items-center gap-2 py-7 px-3 pl-10" action="">
+                    <input class="w-[310px] md:w-[360px] border-2 rounded-md pl-2 py-2" type="text" placeholder="Enter your email">
+                    <button class="w-[310px] md:w-[73px] bg-gradient-to-r from-[#f18b1b] to-[#e52053] rounded-md text-white text-center p-2">join</button>
                 </form>
             </div>
-            <div class="max-w-[768px] w-full mx-auto bg-[#344054] rounded-xl p-5">
+            <div class="max-w-[343px] md:max-w-[768px] w-full mx-auto bg-[#344054] rounded-xl p-5">
                 <div class="flex gap-5">
                     <div>
                         <svg width="24" height="26" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M8 14H16M22 14C22 19.5228 17.5228 24 12 24C6.47715 24 2 19.5228 2 14C2 8.47715 6.47715 4 12 4C17.5228 4 22 8.47715 22 14Z" stroke="#98A2B3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>                            
                     </div>
-                    <div class="text-[#eaecf0]">
+                    <div class=" text-[#eaecf0]">
                         <h1 class="text-lg font-medium pb-4">Do I need to pay to open an account?</h1>
-                        <p class="text-base font-normal w-[656px]">Joining Corefans is completely free and there are no hidden charges. You only pay a small commission when you make sales or get tips on the app.</p>
+                        <p class="pr-5 w-[279px] md:w-[656px] pr-0 text-base font-normal">Joining Corefans is completely free and there are no hidden charges. You only pay a small commission when you make sales or get tips on the app.</p>
                     </div>
                 </div>
             </div>
@@ -221,50 +222,57 @@
             <div class="bg-white my-10">
                 <h1 class="text-center text-[#101828] font-semibold text-[36px] py-3">Sign up for our newsletter</h1>
                 <p class="text-center text-[#667085] text-[20px] font-normal">Be the first to know about releases and industry news and insights.</p>
-                <form class="flex items-center justify-center gap-2 py-7" action="">
-                    <input class="border-2 rounded-md pl-2 py-2 w-[360px]" type="text" placeholder="Enter your email">
-                    <button class="bg-gradient-to-r from-[#f18b1b] to-[#e52053] rounded-md text-white text-center p-2">subscribe</button>
+                <form class="flex-col md:flex-row flex items-center justify-center gap-2 py-7" action="">
+                    <input class="w-[310px] md:w-[360px] border-2 rounded-md pl-2 py-2" type="text" placeholder="Enter your email">
+                    <button class="w-[310px] md:w-[118px] bg-gradient-to-r from-[#f18b1b] to-[#e52053] rounded-md text-white text-center p-2">subscribe</button>
                 </form>
             </div>
         </div>
     </section>
 
     <footer class="bg-[#1d2939] py-10">
-        <div class="max-w-5xl w-full mx-auto">
-            <div class="flex">
+        <div class="max-w-[343px] md:max-w-5xl w-full mx-auto">
+            <div class="flex-col md:flex-row flex">
                 <div class="grow">
                     <h1 class="pb-4">
                         <img src="Images/Frame.png" alt="">
                     </h1>
-                    <div class="flex items-center text-white gap-6 pb-4">
+                    <div class="grid grid-cols-2 gap-6 md:flex items-center text-white gap-6 pb-4">
                         <a href="#">FAQS</a>
                         <a href="#">Blog</a>
                         <a href="#">Media Kit</a>
                         <a href="#">privacy Policy</a>
                         <a href="#">Terms and Condition</a>
+                        <a class="md:hidden" href="#">Help</a>
                     </div>
-                    <div class="flex items-center text-white gap-2 pb-4">
-                        <img src="Images/mail.png" alt="">
-                        <p>corefans@gmail.com</p>
-                    </div>
-                    <div class="flex items-center text-white gap-2 pb-4">
-                        <img src="Images/phone.png" alt="">
-                        <p>+234 705 6584 3472, +234 703 5748 5632</p>
-                    </div>
-                    <div class="flex items-center text-white gap-2">
-                        <img src="Images/akar-icons_location.png" alt="">
-                        <p>46 Backnee Estate, Chevron Lekki, Nigeria</p>
+                    <div class="pt-10 md:pt-0">
+                        <div class="flex items-center text-white gap-2 pb-4">
+                            <img src="Images/mail.png" alt="">
+                            <p>corefans@gmail.com</p>
+                        </div>
+                        <div class="flex items-center text-white gap-2 pb-4">
+                            <img src="Images/phone.png" alt="">
+                            <p class="flex">+234 705 6584 3472,  <span class="hidden md:block">+234 703 5748 5632</span> </p>
+                        </div>
+                        <div class="flex items-center text-white gap-2">
+                            <img src="Images/akar-icons_location.png" alt="">
+                            <p>46 Backnee Estate, Chevron Lekki, Nigeria</p>
+                        </div>
                     </div>
                 </div>
-                <div class="text-white">
+                <div class="pt-10 md: text-white">
                     <p class="pb-3">Get the app</p>
-                    <img src="Images/Actions.png" alt="">
+                    <img class="hidden md:block" src="Images/Actions.png" alt="">
+                    <div class="flex gap-2 md:hidden">
+                        <img src="images/Mobile app store badge 2.png" alt="">
+                        <img src="images/Mobile app store badge 1.png" alt="">
+                    </div>
                 </div>
             </div>
             <div class="border-b flex justify-center py-5"></div>
-            <div class="flex items-center text-white pt-6">
-                <p class="grow">Copyright &copy 2022</p>
-                <img src="Images/Social icons.png" alt="">
+            <div class="flex-col-reverse space-y-5 md:  text-white pt-6">
+                <p class=" md:grow">Copyright &copy 2022</p>
+                <img class="" src="Images/Social icons.png" alt="">
             </div>
         </div>
     </footer>
