@@ -9,24 +9,25 @@
 <body>
     <header>
         <div class="flex gap-8 items-center py-5 pl-8 pb-32">
-            <h1><img src="images/Frame.png" alt=""></h1>
-            <nav class="text-[#667085] text-base font-medium flex gap-5">
-                <a href="/">Home</a>
+            <h1 class="grow md:grow-0"><img src="images/Frame.png" alt=""></h1>
+            <nav class="text-[#667085] text-base font-medium gap-5 hidden md:flex">
+                <a class="bg-gradient-to-r from-[#f18b1b] to-[#e52053] inline-block text-transparent bg-clip-text" href="/">Home</a>
                 <a href="/for-creatives.html">For creatives</a>
                 <a href="/for-talent-managers.html">For talent managers</a>
-                <a class="bg-gradient-to-r from-[#f18b1b] to-[#e52053] inline-block text-transparent bg-clip-text" href="/become-talent-managers.html">Become talent managers</a>
+                <a href="/become-talent-managers.html">Become talent managers</a>
                 <a href="/about-us.html">About us</a>
             </nav>
+            <div><img class="pr-8 md:hidden" src="images/bytesize_menu.png" alt=""></div>
         </div>
     </header>
 
     <section>
         <div class="">
-            <div class="flex gap-5 max-w-5xl w-full mx-auto">
-                <div class="w-[768px]">
-                    <p class="text-base font-semibold pb-4 bg-gradient-to-r from-[#f18b1b] to-[#e52053] inline-block text-transparent bg-clip-text">Become a Talent Managers</p>
-                    <h1 class="text-5xl font-semibold text-[#101828] w-[768px] pb-5">Earn Commissions As Your <br> Creator Grows</h1>
-                    <p class="text-xl font-normal text-[#667085] pb-10">Get paid to discover talents and earn more the more they succeed.</p>
+            <div class="max-w-[343px] md:max-w-5xl flex gap-5 w-full mx-auto">
+                <div class="w-[343px] md:w-[668px]">
+                    <p class="text-sm md:text-base font-semibold pb-4 bg-gradient-to-r from-[#f18b1b] to-[#e52053] inline-block text-transparent bg-clip-text">Become a Talent Managers</p>
+                    <h1 class="text-3xl w-[343px] md:w-[668px] text-5xl font-semibold text-[#101828] pb-5">Earn Commissions As Your Creator Grows</h1>
+                    <p class="text-base md:text-xl font-normal text-[#667085] pb-10">Get paid to discover talents and earn more the more they succeed.</p>
                     <a class="bg-gradient-to-r from-[#f18b1b] to-[#e52053] text-white rounded p-2" href="">Join Us</a>
                 </div>
             </div>
@@ -34,8 +35,8 @@
     </section>
 
     <section>
-        <div class="max-w-5xl w-full mx-auto py-20">
-            <p class="text-2xl text-[#667085] font-normal">We are a Talent-obsessed startup with a mission to discover and help creative talents succeed. Talent managers are A&R and talent management  enthusiasts responsible for implementing the vision and mission of Corefans. We are currently in the beta phase and can only accomodate a limited number of talent manager requests, if you think you’re a good fit, shoot us an introductory email at <br> <span class="underline text-[#f18940]"><a href="">Talentmanager@corefans.co</a></span> </p>
+        <div class="max-w-[343px] md:max-w-5xl w-full mx-auto py-20">
+            <p class="text-base md:text-2xl text-[#667085] font-normal">We are a Talent-obsessed startup with a mission to discover and help creative talents succeed. Talent managers are A&R and talent management  enthusiasts responsible for implementing the vision and mission of Corefans. We are currently in the beta phase and can only accomodate a limited number of talent manager requests, if you think you’re a good fit, shoot us an introductory email at <br> <span class="underline text-[#f18940]"><a href="">Talentmanager@corefans.co</a></span> </p>
         </div>
     </section>
 
@@ -44,50 +45,57 @@
             <div class="bg-[#f9fafb] py-10">
                 <h1 class="text-center text-[#101828] font-semibold text-[36px] py-3">Sign up for our newsletter</h1>
                 <p class="text-center text-[#667085] text-[20px] font-normal">Be the first to know about releases and industry news and insights.</p>
-                <form class="flex items-center justify-center gap-2 py-7" action="">
-                    <input class="border-2 rounded-md pl-2 py-2 w-[360px]" type="text" placeholder="Enter your email">
-                    <button class="bg-gradient-to-r from-[#f18b1b] to-[#e52053] rounded-md text-white text-center p-2">subscribe</button>
+                <form class="flex-col md:flex-row flex items-center justify-center gap-2 py-7" action="">
+                    <input class="w-[310px] md:w-[360px] border-2 rounded-md pl-2 py-2" type="text" placeholder="Enter your email">
+                    <button class="w-[310px] md:w-[118px] bg-gradient-to-r from-[#f18b1b] to-[#e52053] rounded-md text-white text-center p-2">subscribe</button>
                 </form>
             </div>
         </div>
     </section>
 
     <footer class="bg-[#1d2939] py-10">
-        <div class="max-w-5xl w-full mx-auto">
-            <div class="flex">
+        <div class="max-w-[343px] md:max-w-5xl w-full mx-auto">
+            <div class="flex-col md:flex-row flex">
                 <div class="grow">
                     <h1 class="pb-4">
                         <img src="Images/Frame.png" alt="">
                     </h1>
-                    <div class="flex items-center text-white gap-6 pb-4">
+                    <div class="grid grid-cols-2 gap-6 md:flex items-center text-white gap-6 pb-4">
                         <a href="#">FAQS</a>
                         <a href="#">Blog</a>
                         <a href="#">Media Kit</a>
                         <a href="#">privacy Policy</a>
                         <a href="#">Terms and Condition</a>
+                        <a class="md:hidden" href="#">Help</a>
                     </div>
-                    <div class="flex items-center text-white gap-2 pb-4">
-                        <img src="Images/mail.png" alt="">
-                        <p>corefans@gmail.com</p>
-                    </div>
-                    <div class="flex items-center text-white gap-2 pb-4">
-                        <img src="Images/phone.png" alt="">
-                        <p>+234 705 6584 3472, +234 703 5748 5632</p>
-                    </div>
-                    <div class="flex items-center text-white gap-2">
-                        <img src="Images/akar-icons_location.png" alt="">
-                        <p>46 Backnee Estate, Chevron Lekki, Nigeria</p>
+                    <div class="pt-10 md:pt-0">
+                        <div class="flex items-center text-white gap-2 pb-4">
+                            <img src="Images/mail.png" alt="">
+                            <p>corefans@gmail.com</p>
+                        </div>
+                        <div class="flex items-center text-white gap-2 pb-4">
+                            <img src="Images/phone.png" alt="">
+                            <p class="flex">+234 705 6584 3472,  <span class="hidden md:block">+234 703 5748 5632</span> </p>
+                        </div>
+                        <div class="flex items-center text-white gap-2">
+                            <img src="Images/akar-icons_location.png" alt="">
+                            <p>46 Backnee Estate, Chevron Lekki, Nigeria</p>
+                        </div>
                     </div>
                 </div>
-                <div class="text-white">
+                <div class="pt-10 md: text-white">
                     <p class="pb-3">Get the app</p>
-                    <img src="Images/Actions.png" alt="">
+                    <img class="hidden md:block" src="Images/Actions.png" alt="">
+                    <div class="flex gap-2 md:hidden">
+                        <img src="images/Mobile app store badge 2.png" alt="">
+                        <img src="images/Mobile app store badge 1.png" alt="">
+                    </div>
                 </div>
             </div>
             <div class="border-b flex justify-center py-5"></div>
-            <div class="flex items-center text-white pt-6">
-                <p class="grow">Copyright &copy 2022</p>
-                <img src="Images/Social icons.png" alt="">
+            <div class="flex-col-reverse md:flex-row flex items-center  text-white pt-6">
+                <p class=" md:grow">Copyright &copy 2022</p>
+                <img class="" src="Images/Social icons.png" alt="">
             </div>
         </div>
     </footer>
