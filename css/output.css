@@ -644,6 +644,10 @@ video {
   width: 130px;
 }
 
+.w-\[260px\] {
+  width: 260px;
+}
+
 .w-\[279px\] {
   width: 279px;
 }
@@ -660,20 +664,12 @@ video {
   width: 343px;
 }
 
-.w-\[360px\] {
-  width: 360px;
-}
-
 .w-\[486px\] {
   width: 486px;
 }
 
 .w-\[576px\] {
   width: 576px;
-}
-
-.w-\[656px\] {
-  width: 656px;
 }
 
 .w-\[720px\] {
@@ -684,18 +680,6 @@ video {
   width: 100%;
 }
 
-.w-\[280px\] {
-  width: 280px;
-}
-
-.w-\[270px\] {
-  width: 270px;
-}
-
-.w-\[260px\] {
-  width: 260px;
-}
-
 .max-w-5xl {
   max-width: 64rem;
 }
@@ -704,20 +688,12 @@ video {
   max-width: 315px;
 }
 
+.max-w-\[316px\] {
+  max-width: 316px;
+}
+
 .max-w-\[343px\] {
   max-width: 343px;
-}
-
-.max-w-\[570px\] {
-  max-width: 570px;
-}
-
-.max-w-\[576px\] {
-  max-width: 576px;
-}
-
-.max-w-\[768px\] {
-  max-width: 768px;
 }
 
 .max-w-max {
@@ -751,6 +727,10 @@ video {
 
 .justify-center {
   justify-content: center;
+}
+
+.gap-1 {
+  gap: 0.25rem;
 }
 
 .gap-14 {
@@ -1068,11 +1048,6 @@ video {
   text-align: center;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -1096,12 +1071,12 @@ video {
   font-size: 21px;
 }
 
-.text-\[36px\] {
-  font-size: 36px;
+.text-\[27px\] {
+  font-size: 27px;
 }
 
-.text-\[38px\] {
-  font-size: 38px;
+.text-\[36px\] {
+  font-size: 36px;
 }
 
 .text-base {
@@ -1122,10 +1097,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-\[27px\] {
-  font-size: 27px;
 }
 
 .font-bold {
@@ -1252,12 +1223,12 @@ video {
     max-width: 570px;
   }
 
-  .md\:max-w-\[768px\] {
-    max-width: 768px;
-  }
-
   .md\:max-w-\[576px\] {
     max-width: 576px;
+  }
+
+  .md\:max-w-\[768px\] {
+    max-width: 768px;
   }
 
   .md\:grow {
@@ -1323,9 +1294,18 @@ video {
     line-height: 1;
   }
 
+  .md\:text-\[38px\] {
+    font-size: 38px;
+  }
+
   .md\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
+  }
+
+  .md\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 
   .md\:text-xl {
